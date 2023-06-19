@@ -6,41 +6,68 @@ html, body{
     background-color: indianred;
 }
 
-header{
-    background-color: darksalmon;
-    text-align: center;
-    font-size: 20px;
+header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 0px;
-    margin-right: 0px;
+	background-color: indianred;
+	height: 50px;
+	padding-top: 25px;
+	color: hsl(0, 3%, 6%);
+	text-align: center;
 }
-p{
-    text-align: justify;
-    font-size: medium;
-    color: aliceblue;
+
+header img {
+    width: 48px;
+    height: 48px;    
 }
-main{
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    height: 1000px;
-    margin: 25px;
-    margin-top: 100px;
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 }
-footer{
-    color: hsl(176, 100%, 97%);
-    text-align: center;
+
+h3 {
+	font-family: oblique
+}
+
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	flex-wrap: wrap;	
 }
 
 .box {
-    width: 500px;
-    heigth: 500;
-    border: solid;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 15px;
+	width: 350px;
+	height: 400px;
+	background-color: #f18e70;
+	border-radius: 10px;
+	padding: 20px;	
+	color: #f0d9c1;
+	border-style: inset;    
+	margin-bottom: 20px;
+}
+
+.box:hover {
+	box-shadow: 10px 10px 15px #a4a4a4;
+}
+
+.box h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+img {
+	width: 300px;
+	height: 200px;    
+}
+
+.box p {
+	text-align: justify;	
 }
 
 #white{
