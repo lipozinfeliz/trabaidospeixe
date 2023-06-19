@@ -16,13 +16,33 @@ header{
     margin-left: 0px;
     margin-right: 0px;
 }
-
-.container{
-    text-align: center;
-    max-width: 90%;
-    margin: auto;
+p{
+    text-align: justify;
+    font-size: medium;
+    color: aliceblue;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 1000px;
+    margin: 25px;
+    margin-top: 100px;
 }
 footer{
-    color: antiquewhite;
+    color: hsl(176, 100%, 97%);
     text-align: center;
+}
+
+.box {
+    width: 500px;
+    heigth: 500;
+    border: solid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#white{
+    background-color: #577685;
 }
