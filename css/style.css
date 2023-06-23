@@ -3,14 +3,14 @@ html, body{
     padding: 0;
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
-    background-color: indianred;
+    background-color:indianred;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	background-color: indianred;
+	background-color: darksalmon;
 	height: 50px;
 	padding-top: 25px;
 	color: hsl(0, 3%, 6%);
@@ -48,12 +48,8 @@ main {
 	border-radius: 10px;
 	padding: 20px;	
 	color: #f0d9c1;
-	border-style: inset;    
+	border-style: solid;    
 	margin-bottom: 20px;
-}
-
-.box:hover {
-	box-shadow: 10px 10px 15px #a4a4a4;
 }
 
 .box h2 {
@@ -72,4 +68,9 @@ img {
 
 #white{
     background-color: #577685;
+}
+
+footer{
+	text-align: center;
+	color: whitesmoke;
 }
